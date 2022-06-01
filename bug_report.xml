@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<BUG REPORT>
+<SUMMERY> The BirthDay field isn't fill in with  the date in the format date ММ/DD/YYYY </SUMMERY> 
+<TEST STEP1>Create a new family database by clicking on the button [New Datebase] when the  Husband tab is open </TEST STEP1>
+<TEST STEP2> Entering the date in the BirthDay field in the MM/DD/YYYY format using a keyboard </TEST STEP2>
+<EXPECTED RESULT>The BirthDay field is fill in with  the date in the format date ММ/DD/YYYY</EXPECTED RESULT>
+<ACTUAL RESULT>The BirthDay field is fill in with  the date in the format date DD/MM/YYYY </ACTUAL RESULT>
+<PRIORITY>high </PRIORITY>
+<SEVERITY>high</SEVERITY>
+</BUG REPORT>
